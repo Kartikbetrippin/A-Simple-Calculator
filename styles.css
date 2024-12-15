@@ -1,0 +1,101 @@
+body{
+    background-color: #131010;
+    margin:0;
+    overscroll-behavior: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+p{
+   margin:0px;
+}
+.memdisplay{
+    border-radius: 20px;
+background-color: grey;
+width: 80%;
+height: 70px;
+min-width: 300px;
+max-width: 400px;
+padding:10px;
+font-size: 3rem;
+display:flex;
+align-items: center;
+justify-content: right;
+}
+
+
+.calculator{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+    height: 60vh;
+    width: 80%;
+    max-width: 350px;
+    padding:20px;
+    background-color:#543A14;
+    gap:5px;
+    border-radius: 20px;
+    min-width: 300px;
+}
+.display{
+    display: flex;
+    background-color:#FFF0DC;
+    justify-content:right;
+    align-items: center;
+    padding:0 10px 0 0;
+    border-radius: 20px;
+    font-weight: 900;
+    font-size: 3rem;
+}
+.display>p{
+    margin:10px;
+}
+.btn{
+    background-color: #F0BB78;
+    border-radius: 20px;
+    border:0px;
+    color:white;
+    font-weight: 900;
+    font-size: large;
+}
+.operator{
+    background-color: white;
+    color:black;
+}
+
+.hover{
+color:#543A14;
+}
+.pressed{
+    color:black;
+    background-color: black;
+}
+.topBar{
+    display: flex;
+    height: 20vh;
+}
+.topBar>div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color:white;
+    padding:20px;
+    background-color: #543A14;
+    width: 100%;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #543A14;
+    height: 10vh;
+    color:white;
+}
